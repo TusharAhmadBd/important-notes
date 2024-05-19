@@ -1,0 +1,136 @@
+Important notes for UE 5
+-----------
+Bulueprint
+-----------
+	Flow controll
+	-------------
+	Branch (node)				-> If statement
+	Sequench (node)				-> One after one
+	Flip Flop (node)			-> Toggler between A - B
+	Gate (node)
+	interp to
+	vector length xy
+	Lerp					-> Returns percentage value
+	Lerp(vector)
+	--------------
+	Character
+	--------------
+	Add controler Pitch input		-> Look up down	(Note: Bp_PlayerCharacter -> camera -> camera options -> use pawn control rotation - enable)
+	Add controler Yaw input			-> Look Left right
+	Add movement input			-> Moves a character
+	Get control rotation			-> Gets rotation of actor
+	Get forward vector			-> Gets axis forward 
+	Get right vector			-> Gets axis righ
+	get turn				-> Gives turn value
+	Event BeginPlay				-> This event occurs when game start
+	Event ActorBeginOverlap			-> This event occurs when actor overlap something
+	Event Trick				-> This event occurs in every fps such as (60 fps)
+	Get socket location
+	Get socket Rotation
+	Get actor location
+	Get player controller
+	-------------
+	Pause game
+	-------------
+	Is game paused				-> Checks game paused or not
+	Set game paused				-> Pauses games
+	--------------
+	Intput 
+	--------------
+	Enable input				-> Enables input in other blueprint classes
+	Action mapping				-> Occurs one time or one unit
+	Axis mapping				-> Occurs over & over again
+	--------------
+	Material
+	--------------
+	Tips					-> Always use texture in material (insteat of node constant).Texture will speed up your game fps.
+	emmesive color				-> It is like lighting to the object
+	specular				-> It is like leather
+	Texture Coordinate			-> In uvs
+	Component Mask				-> Gives colours separately
+	Panner					-> Animate texture/material
+	Time
+	Material Instance
+	Sine					-> Animates -1 to 1
+	Saturate				-> Clamps the value between 0 and 1
+	Lerp
+	Sine_Remapped (function)		-> Remaps the output of sine wave
+	Desaturation				-> Modify saturation
+	Power					-> Modify contrast
+	Switch					->
+	--------------
+	Niagra System
+	--------------
+	Emitter state 
+	Inatialize particle
+	Particle state
+	Add a renderer
+	Spawn rate
+	Add velocity
+	Shape location
+	Scale sprite size
+	Scale color
+	Vector noise force
+	Solve forces and velocity	
+	--------------
+	Game Mode
+	--------------
+	Tips					-> Change Default Game mode from project settings - maps and modes
+						-> Overwrite Game Mode from world settings
+	Hud (class)				-> Players Ammo, Health etc
+	Default Pawn class			-> Default player	
+	---------------
+	Animation
+	---------------
+	State machine
+	state
+	get velocity (f)			-> Get speed
+	try to get own Pawn			-> Cast to player character here (node)
+	ifFalling (f)				-> Player is on ground or not (boolean)
+	New save cached pose			-> 
+	Time remaining				-> Checks animation finish time
+	Interp to				-> Like timeline / Animates some value 
+	Animation montage
+	Layered blend per bone			-> It will separate body when animation
+	Animation aim offset
+	--------------
+	Direction
+	--------------
+	get actor rotation			-> where is actor looking
+	get control rotation
+	get socket rotation
+	calculate direction
+	delta (rotator)				> it calculates the change between two rotation 
+	--------------
+	Collapsing
+	--------------
+	Tips					-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macroes
+	--------------------
+	Timer
+	--------------------
+	Set timer by event
+	Set timer by function
+	--------------------
+	Math
+	--------------------
+	Clamp					-> Returns a value between two given numbers
+	--------------------
+	Trace
+	--------------------
+	Line trace by channel
+	--------------------
+	Project world to screen			-> Gives Screen Position
+	Get viewport size
+	---------------------
+	Distance
+	---------------------
+	Distance 2d
+	Distance 3d
+	--------------------
+	Audio
+	--------------------
+	Play sound at location
+	Set boolean parameter
+	Set integer parameter
+	Set float parameter
+	Execute trigger parameter
