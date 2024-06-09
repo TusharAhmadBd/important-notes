@@ -1,0 +1,20 @@
+Blender shortcuts:
+
+Shift + a		-> Add
+x / Delete		-> Delete
+n			-> Open Sidebar
+a			-> Select all
+Alt + a			-> Deselect all	
+Middle mouse		-> Gismo
+Shift + middle mouse	-> Pan
+Ctr + middle mouse	-> Zoom in/out
+Num . / Del		-> Focus
+Hold Shift		-> Slower increase/decrease float value 	
+g			-> Grab
+r			-> Rotate
+s			-> Scale
+Shift + d		-> Duplicate
+Shift + x/y/z		-> Exclude a axis
+Ctr + a			-> Apply menu 
+Tab			-> Toggle Edit mode/ Object mode
+Shift + click		-> Multiple selection
