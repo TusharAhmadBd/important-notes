@@ -18,3 +18,5 @@ Shift + x/y/z		-> Exclude a axis
 Ctr + a			-> Apply menu 
 Tab			-> Toggle Edit mode/ Object mode
 Shift + click		-> Multiple selection
+j			-> Join
+Alt + e			-> Extrude menu
