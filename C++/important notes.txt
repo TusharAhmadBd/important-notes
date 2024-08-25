@@ -1,0 +1,17 @@
+C++ Important notes
+*-------------------*
+Include Library
+*-------------------*
+-------------------
+<iostream> //Standard Library
+-------------------
+	std::cout <<
+	std::cin >>
+------------------
+<string> //Standard Library
+------------------
+	std::string
+	std::getline
+*-----------------*
+
+*-----------------*
