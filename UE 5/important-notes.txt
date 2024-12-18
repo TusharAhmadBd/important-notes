@@ -1,11 +1,11 @@
 Important notes for UE 5
 -----------
-Bulueprint
+Blueprint
 -----------
-	Flow controll
+	Flow control
 	-------------
 	Branch (node)				-> If statement
-	Sequench (node)				-> One after one
+	Sequence (node)				-> One after one
 	Flip Flop (node)			-> Toggler between A - B
 	Gate (node)
 	interp to
@@ -15,8 +15,8 @@ Bulueprint
 --------------
 Character
 --------------
-	Add controler Pitch input		-> Look up down	(Note: Bp_PlayerCharacter -> camera -> camera options -> use pawn control rotation - enable)
-	Add controler Yaw input			-> Look Left right
+	Add controller Pitch input		-> Look up down	(Note: Bp_PlayerCharacter -> camera -> camera options -> use pawn control rotation - enable)
+	Add controller Yaw input			-> Look Left right
 	Add movement input			-> Moves a character
 	Get control rotation			-> Gets rotation of actor
 	Break rotator
@@ -37,17 +37,17 @@ Pause game
 -------------
 	Is game paused				-> Checks game paused or not
 	Set game paused				-> Pauses games
-	--------------
-	Intput 
-	--------------
+--------------
+Input 
+--------------
 	Enable input				-> Enables input in other blueprint classes
 	Action mapping				-> Occurs one time or one unit
 	Axis mapping				-> Occurs over & over again
-	--------------
-	Material
-	--------------
+--------------
+Material
+--------------
 	Tips					-> Always use texture in material (insteat of node constant).Texture will speed up your game fps.
-	emmesive color				-> It is like lighting to the object
+	emissive color				-> It is like lighting to the object
 	specular				-> It is like leather
 	Texture Coordinate			-> In uvs
 	Component Mask				-> Gives colours separately
@@ -61,11 +61,11 @@ Pause game
 	Desaturation				-> Modify saturation
 	Power					-> Modify contrast
 	Switch					->
-	--------------
-	Niagra System
-	--------------
+--------------
+Niagra System
+--------------
 	Emitter state 
-	Inatialize particle
+	Initialize particle
 	Particle state
 	Add a renderer
 	Spawn rate
@@ -75,16 +75,16 @@ Pause game
 	Scale color
 	Vector noise force
 	Solve forces and velocity	
-	--------------
-	Game Mode
-	--------------
+--------------
+Game Mode
+--------------
 	Tips					-> Change Default Game mode from project settings - maps and modes
 						-> Overwrite Game Mode from world settings
 	Hud (class)				-> Players Ammo, Health etc
 	Default Pawn class			-> Default player	
-	---------------
-	Animation
-	---------------
+---------------
+Animation
+---------------
 	State machine
 	state
 	get velocity (f)			-> Get speed
@@ -96,44 +96,44 @@ Pause game
 	Animation montage
 	Layered blend per bone			-> It will separate body when animation
 	Animation aim offset
-	--------------
-	Direction
-	--------------
+--------------
+Direction
+--------------
 	get actor rotation			-> where is actor looking
-	get control rotation
+	get control rotation			-> get spring arm rotation
 	get socket rotation
 	calculate direction
 	delta (rotator)				> it calculates the change between two rotation 
-	--------------
-	Collapsing
-	--------------
-	Tips					-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macroes
-	--------------------
-	Timer
-	--------------------
+--------------
+Collapsing
+--------------
+	Tips					-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macros
+--------------------
+Timer
+--------------------
 	Set timer by event
 	Set timer by function
-	--------------------
-	Math
-	--------------------
+--------------------
+Math
+--------------------
 	Clamp					-> Returns a value between two given numbers
-	--------------------
-	Trace
-	--------------------
+--------------------
+Trace
+--------------------
 	Line trace by channel
 	--------------------
 	Project world to screen			-> Gives Screen Position
 	Get viewport size
-	---------------------
-	Distance
-	---------------------
+---------------------
+Distance
+---------------------
 	Distance 2d
 	Distance 3d
-	--------------------
-	Audio
-	--------------------
+--------------------
+Audio
+--------------------
 	Play sound at location
-	Set boolean parameter
+	Set Boolean parameter
 	Set integer parameter
 	Set float parameter
 	Execute trigger parameter
